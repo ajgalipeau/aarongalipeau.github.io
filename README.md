@@ -62,6 +62,10 @@ Contributions are welcome! Feel free to open issues or submit pull requests with
 
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-**Disclosure:** This site uses Amazon affiliate links, which means I may earn a small commission if you purchase a book through those links. This helps support the site and allows me to read even more!
+## Disclosure
 
-**Connect with me:** [aarongalipeau@gmail.com] | [[Aaron Galipeau's X Account](https://x.com/aaronjgalipeau)]
+This site uses Amazon affiliate links, which means I may earn a small commission if you purchase a book through those links. This helps support the site and allows me to read even more!
+
+## Connect with me:
+
+[aarongalipeau@gmail.com] | [[Aaron Galipeau's X Account](https://x.com/aaronjgalipeau)]
