@@ -23,31 +23,34 @@ email: aarongalipeau@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Welcome to AJ Galipeau's personal website, showcasing projects, a reading list, and insights on personal and professional growth.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://ajgalipeau.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "https://ajgalipeau.github.io"
+twitter_username: aaronjgalipeau
+github_username:  ajgalipeau
+facebook_username: ISaarongalipeau
+instagram_username: aaron.galipeau
+
+permalink: pretty
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: default
+
+header_pages:
+  - about.markdown
+  - readinglist.markdown
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - node_modules/
+  - docs/
+  - _site/
